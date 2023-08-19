@@ -4,7 +4,7 @@ import {
     FaBars,
     FaRegChartBar,
     FaFileContract,
-    FaChartArea,
+    FaMapSigns,
 }from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
 import './sidebar.css'
@@ -25,18 +25,18 @@ const Sidebar = ({children}) => {
         },
         {
             path:"/crud",
-            name:"Dashboard",
+            name:"Create Contact",
             icon:<FaFileContract/>
         },
         {
             path:"/linegraph",
             name:"Line Graph",
-            icon:<FaChartArea/>
+            icon:<FaRegChartBar/>
         },
         {
             path:"/maps",
             name:"maps",
-            icon:<FaRegChartBar/>
+            icon:<FaMapSigns/>
         },
     ]
     return (
