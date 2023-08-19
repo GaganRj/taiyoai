@@ -1,0 +1,33 @@
+.container {
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: 5px 5px 0px #bebebe, -5px -5px 0px #ffffff;
+  height: 78px;
+  width: 285px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.main {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* line graph */
+.linecontainer{
+  width: 90%;
+  height: 90%;
+}
