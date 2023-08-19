@@ -76,7 +76,7 @@ const Crud = () => {
   };
 
   return (
-    <div>
+    <div style={{margin:"5%"}}>
       <div>
         <h2 className="">Create Contact</h2>
       </div>
