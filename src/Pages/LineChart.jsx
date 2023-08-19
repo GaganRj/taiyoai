@@ -84,5 +84,5 @@ export function LineChart () {
         return <div>Loading...</div>;
     }
 
-    return <div className={Style.linecontainer}><Line options={options} data={chartData} />;</div>
+    return <div className={Style.linecontainer} style={{marginLeft:"50px"}}><Line options={options} data={chartData} />;</div>
 }
