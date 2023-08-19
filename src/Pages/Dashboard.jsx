@@ -21,7 +21,7 @@ const Dashboard = () => {
     }
 
     return (
-        <div style={{marginLeft:"5%"}}>
+        <div style={{marginLeft:"50px"}}>
             {
                 allcount ?
                     <div className={Style.main}>
